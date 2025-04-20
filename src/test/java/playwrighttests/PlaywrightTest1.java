@@ -24,6 +24,9 @@ public class PlaywrightTest1
         driver.frameLocator("#iframeResult").locator("//input[@value='Submit']").click();
         // Wait for a while to observe the result
         driver.waitForTimeout(5000);
+        
+        System.out.println("Additional code added by Mohan");
+        
 	}
 
 }
