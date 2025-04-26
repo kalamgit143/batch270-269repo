@@ -25,7 +25,8 @@ public class PlaywrightTest1
         // Wait for a while to observe the result
         driver.waitForTimeout(5000);
         
-        System.out.println("Additional code added by Mohan");
+        //Close site. 
+        driver.close();
         
 	}
 
