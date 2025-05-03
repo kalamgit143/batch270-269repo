@@ -25,6 +25,7 @@ public class PlaywrightTest1
         // Wait for a while to observe the result using playwright code
         driver.waitForTimeout(5000);
         //Close site
+        driver.close();
 	}
 
 }
